@@ -1,0 +1,20 @@
+{
+  "name": "js-cryptocurrency",
+  "version": "1.0.0",
+  "description": "Learning Node with making a cryptocurrency project",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ranellereyes/JS-cryptocurrency.git"
+  },
+  "author": "Ranelle Reyes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ranellereyes/JS-cryptocurrency/issues"
+  },
+  "homepage": "https://github.com/ranellereyes/JS-cryptocurrency#readme"
+}
