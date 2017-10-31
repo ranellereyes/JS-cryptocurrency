@@ -4,8 +4,8 @@
   "description": "Learning Node with making a cryptocurrency project",
   "main": "server.js",
   "scripts": {
-    "test": "node server.js",
-    "start": "node server.js",
+    "test": "node lib/server.js",
+    "start": "node lib/server.js",
     "build": "babel src -d lib"
   },
   "repository": {

@@ -20,4 +20,5 @@ if (process.argv.slice(2).length != 2) {
   let UserCoinz = new Coinz(NAME);
 
   UserCoinz.print_state(NAME);
+  UserCoinz.print_state('invaliduser')
 }

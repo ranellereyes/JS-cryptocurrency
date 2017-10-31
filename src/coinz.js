@@ -1,3 +1,5 @@
+import chalk from 'chalk';
+
 export default class Coinz {
   constructor(username) {
     // Start off with 5 Coinz because why not?
@@ -9,9 +11,12 @@ export default class Coinz {
     let dbName = name.toLowerCase();
 
     if (this.state[dbName]) {
-      console.log(`${name} has ${this.state[dbName]} Coinz.\n`);
+      console.log(`${name} has ` +
+        chalk.red.underline.bold(`${this.state[dbName]}`) +
+        ` Coinz.\n`);
     } else {
-      console.log(`No such user by the name of ${name}\n`);
+      console.log(`No such user by the name of ` +
+        chalk.red.underline.bold(`\'${name}\'`) + `\n`);
     }
 
     console.log(`Request complete. \n`);
