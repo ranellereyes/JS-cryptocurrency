@@ -21,4 +21,8 @@ if (process.argv.slice(2).length != 2) {
 
   UserCoinz.print_state(NAME);
   UserCoinz.print_state('invaliduser')
+  UserCoinz.init_user("not_me")
+  UserCoinz.transfer(NAME, "not_me", 3);
+  UserCoinz.print_state(NAME);
+  UserCoinz.print_state("not_me");
 }
